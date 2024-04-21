@@ -1,6 +1,15 @@
 # glover_t7_v2
 
-A new Flutter project.
+Project in Flutter developed for the Mobile Development subject taught by professor Diego Antunes.
+
+## SCREENSHOTS
+<p style="float: center;">
+  <img src="https://github.com/phanjan/glover_t7_v2/blob/main/screenshots/Screenshot_1713588829.png" width="22%"/>
+  <img src="https://github.com/phanjan/glover_t7_v2/blob/main/screenshots/Screenshot_1713588831.png" width="22%"/>
+  <img src="https://github.com/phanjan/glover_t7_v2/blob/main/screenshots/Screenshot_1713588850.png" width="22%"/>
+  <img src="https://github.com/phanjan/glover_t7_v2/blob/main/screenshots/Screenshot_1713588857.png" width="22%"/>
+  <img src="https://github.com/phanjan/glover_t7_v2/blob/main/screenshots/Screenshot_1713588860.png" width="22%"/>
+</p>
 
 ## Getting Started
 

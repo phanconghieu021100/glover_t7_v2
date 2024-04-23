@@ -26,11 +26,11 @@ class _GamesPageState extends State<GamesPage> {
 
   List<Game> items = [
      Game(
-        name: "Clasi Girl", 
+        name: "Castleho", 
         release: 2017, 
-        description: "Hollow Knight is a 2017 action-adventure game developed and published by Team Cherry, and was released for Microsoft Windows, macOS, and Linux in 2017, and later for the Nintendo Switch, PlayStation 4, and Xbox One in 2018.", 
+        description: "Castleho Castle, an ancient symbol with imponent architecture, welcomes visitors from all over, creating a vibrant and bustling atmosphere.", 
         genre: ["Action", "Adventure", "Indie"], 
-        image: "assets/i1.jpeg"
+        image: "assets/i11.jpeg"
         ),
         Game(
         name: "Photno", 
@@ -40,32 +40,32 @@ class _GamesPageState extends State<GamesPage> {
         image: "assets/pgo.jpeg"
         ),
       Game(
-        name: "Hollow Knight", 
+        name: "Moutain Everest", 
         release: 2017, 
-        description: "Hollow Knight is a 2017 action-adventure game developed and published by Team Cherry, and was released for Microsoft Windows, macOS, and Linux in 2017, and later for the Nintendo Switch, PlayStation 4, and Xbox One in 2018.", 
+        description: "The world's highest peak, located in the Himalayas, Mount Everest is a challenge for climbers and a symbol of extraordinary strength and spirit.", 
         genre: ["Action", "Adventure", "Indie"], 
-        image: "assets/hollow_knight.png"
+        image: "assets/montEverest.webp"
         ),
       Game(
-        name: "Gris", 
+        name: "Mansion", 
         release: 2018, 
-        description: "Gris is a 2018 platform-adventure game by Spanish indie developer Nomada Studio and published by Devolver Digital. The game was released for Nintendo Switch, macOS, and Microsoft Windows in December 2018, for iOS in August 2019, for PlayStation 4 in November 2019, and for Android in April 2020.",
+        description: "Ancient Mansion, a historical villa with dark beauty, rough lime walls, old windows and no trace of modern life.",
         genre: ["Adventure", "Indie"], 
-        image: "assets/gris.png"
+        image: "assets/mansion.webp"
         ),
       Game(
-        name: "Celeste", 
+        name: "Cute Dog", 
         release: 2018, 
-        description: "Celeste is a platforming video game by Canadian video game developers Maddy Makes Games, which was released in January 2018. The game was originally developed as a prototype in four days at a game jam, and later expanded into a full release.",
+        description: "The cute dog is happy, swinging and running in the middle of a large flower garden. Around, colorful flowers create a dreamy scene, blending with the dog's joy.",
         genre: ["Platform", "Indie"], 
-        image: "assets/celeste.png"
+        image: "assets/dog.webp"
         ),
       Game(
-        name: "Outer Wilds", 
+        name: "Interiorun", 
         release: 2019, 
-        description: "Outer Wilds is a 2019 action-adventure game developed by Mobius Digital and published by Annapurna Interactive for Microsoft Windows, Xbox One, and PlayStation 4. The game features the player character exploring a solar system stuck in a 22-minute time loop, which ends as the sun goes supernova.", 
+        description: "An Interiorun villa located near the beach, a place worth living with modern architecture, spacious, airy and fully equipped, including a large swimming pool and lounge chairs for sunbathing", 
         genre: ["Action", "Adventure", "Indie"], 
-        image: "assets/outer_wilds.jpg"
+        image: "assets/interior.webp"
         ),
   ];
 
@@ -112,7 +112,7 @@ class _GamesPageState extends State<GamesPage> {
               ),
               const SizedBox(width: 10),
               Text(
-                'glover_t7_v2',
+                'Gamelovers',
                 style: GoogleFonts.roboto(
                   textStyle: TextStyle(
                     color: Colors.purple.shade300,

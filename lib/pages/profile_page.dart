@@ -56,7 +56,7 @@ class _ProfilePageState extends State<ProfilePage> {
                         backgroundColor: Colors.white,
                         radius: 60,
                         child: CircleAvatar(
-                          backgroundImage: NetworkImage('https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/aa18d637-ff0e-4756-243f-da27121bdb00/width=450/232211-1331603207-xingshi,%20lion%20costume,%20extra%20detailed,%208k,%204%20legs,%20%20outdoors,%20beautiful%20sky,%20%20close%20up,%20high%20resolution,%20%20,%20(Anime%20Scene,%20Toonsh.jpeg'),
+                          backgroundImage: NetworkImage('https://cdn.leonardo.ai/users/99ab3860-c455-4446-8e99-3d321dc98ab0/generations/cb424f0c-e32d-4211-896e-8bb76342cb2b/Default_Eine_farb_explosion_die_ganz_bund_ist_und_wo_ein_lwe_d_3.jpg?w=512'),
                           radius: 50,
                         ))),
               ],

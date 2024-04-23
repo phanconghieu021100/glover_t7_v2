@@ -5,11 +5,11 @@ Project in Flutter developed for the Mobile Development subject taught by profes
 ## SCREENSHOTS
 <p style="float: center;">
   <img src="https://github.com/phanjan/glover_t7_v2/blob/main/screenshots/1.png" width="22%"/>
-  <img src="https://github.com/phanjan/glover_t7_v2/blob/main/screenshots/2.png" width="22%"/>
+  <img src="https://github.com/phanjan/glover_t7_v2/blob/main/screenshots/6.png" width="22%"/>
   <img src="https://github.com/phanjan/glover_t7_v2/blob/main/screenshots/3.png" width="22%"/>
   <img src="https://github.com/phanjan/glover_t7_v2/blob/main/screenshots/4.png" width="22%"/>
   <img src="https://github.com/phanjan/glover_t7_v2/blob/main/screenshots/5.png" width="22%"/>
-  <img src="https://github.com/phanjan/glover_t7_v2/blob/main/screenshots/6.png" width="22%"/>
+  <img src="https://github.com/phanjan/glover_t7_v2/blob/main/screenshots/2.png" width="22%"/>
 </p>
 
 ## Getting Started

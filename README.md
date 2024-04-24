@@ -17,6 +17,8 @@ Project in Flutter developed for the Mobile Development subject taught by profes
   <img src="https://github.com/phanjan/glover_t7_v2/blob/main/screenshots/4.png" width="22%"/>
   <img src="https://github.com/phanjan/glover_t7_v2/blob/main/screenshots/5.png" width="22%"/>
   <img src="https://github.com/phanjan/glover_t7_v2/blob/main/screenshots/2.png" width="22%"/>
+  <img src="https://github.com/phanjan/glover_t7_v2/blob/main/screenshots/Screenshot_1713986733.png" width="22%"/>
+  <img src="https://github.com/phanjan/glover_t7_v2/blob/main/screenshots/Screenshot_1713986738.png" width="22%"/>
 </p>
 
 ## Getting Started

@@ -1,6 +1,8 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
+import 'package:glover_t7_v2/pages/disliked_page.dart';
+import 'package:glover_t7_v2/pages/liked_page.dart';
 import 'package:glover_t7_v2/pages/profile_page.dart';
 import 'package:glover_t7_v2/pages/games_page.dart';
 import 'package:glover_t7_v2/u.dart';
@@ -37,6 +39,8 @@ class _HomePageState extends State<HomePage> {
         children: [
           GamesPage(),
           ProfilePage(),
+          // LikedPage(),
+          // DislikedPage(),
         ],
         onPageChanged: setPaginaAtual,
       ),
@@ -53,6 +57,14 @@ class _HomePageState extends State<HomePage> {
       icon: Icon(Icons.person),
       label: 'Profile',
     ),
+    //  BottomNavigationBarItem(
+    //   icon: Icon(Icons.favorite),
+    //   label: 'Liked',
+    // ),
+    //  BottomNavigationBarItem(
+    //   icon: Icon(Icons.do_disturb),
+    //   label: 'DisLiked',
+    // ),
   ],
   onTap: (pagina) {
     pc.animateToPage(

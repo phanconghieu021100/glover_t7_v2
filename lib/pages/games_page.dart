@@ -4,6 +4,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:glover_t7_v2/models/game.dart';
+import 'package:glover_t7_v2/pages/disliked_page.dart';
+import 'package:glover_t7_v2/pages/liked_page.dart';
 import 'package:glover_t7_v2/u.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:swipe_cards/draggable_card.dart';
@@ -69,18 +71,28 @@ class _GamesPageState extends State<GamesPage> {
         ),
   ];
 
+  List<Game> likedItems = [];
+List<Game> dislikedItems = [];
+
   @override
   void initState() {
     for (int i = 0; i < items.length; i++) {
       _swipeItems.add(SwipeItem(
           content: Game(name: items[i].name, release: items[i].release, description: items[i].description, genre: items[i].genre, image: items[i].image),
           likeAction: () {
+            setState(() {
+              likedItems.add(items[i]);
+              print(likedItems);
+            });
             ScaffoldMessenger.of(context).showSnackBar(SnackBar(
               content: Text("Liked ${items[i].name}"),
               duration: Duration(milliseconds: 500),
             ));
           },
           nopeAction: () {
+                setState(() {
+              dislikedItems.add(items[i]);
+            });
             ScaffoldMessenger.of(context).showSnackBar(SnackBar(
               content: Text("You didn't like it ${items[i].name}"),
               duration: Duration(milliseconds: 500),
@@ -121,6 +133,18 @@ class _GamesPageState extends State<GamesPage> {
                   )
                 ),
               ),
+              ElevatedButton(onPressed: (){Navigator.push(
+  context,
+  MaterialPageRoute(
+    builder: (context) => LikedPage(likedItems: likedItems),
+  ),
+);}, child: Icon(Icons.favorite)),
+ElevatedButton(onPressed: (){Navigator.push(
+  context,
+  MaterialPageRoute(
+    builder: (context) => DislikedPage(dislikedItems:dislikedItems),
+  ),
+);}, child: Icon(Icons.do_disturb))
             ]
           ),
         )
